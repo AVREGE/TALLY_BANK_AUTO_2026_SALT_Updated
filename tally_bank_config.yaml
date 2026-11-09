@@ -1,0 +1,28 @@
+tally:
+  url: "http://localhost:9000"
+  dsn: "TallyODBC64_9000"
+  default_suspense_ledger: "Suspense"
+  tally_install_dir: "C:\\Program Files\\TallyPrime"
+
+voucher_types:
+  payment_voucher_name: "Payment"
+  receipt_voucher_name: "Receipt"
+
+voucher_numbering:
+  method: "auto"
+
+ocr_engine:
+  # =====================================================================
+  # 📥 USER EXTRACTION SETUPS & MANUAL DEPENDENCY MAPS
+  # =====================================================================
+  # If you are converting scanned variants or passbook prints, an external 
+  # engine configuration is needed. You can choose either setup option:
+  #
+  # Option 1: Run the standard precompiled setup archive installer from the official page:
+  #           https://github.com
+  #           Make sure to update the absolute system execution path path marker string below.
+  #
+  # Option 2: Place a standalone unzipped portable "Tesseract-OCR" subfolder configuration 
+  #           directly inside the runtime extraction root folder for instant deployment out-of-the-box.
+  windows_tesseract_cmd_path: "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  official_download_source_url: "https://github.com"
