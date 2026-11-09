@@ -33,7 +33,7 @@ When a new version is compiled using `build_bank_importer.bat`:
    * `latest.json`
 2. Update the `latest.json` file in the root of the `main` branch with the new version and SHA-256 hash.
 3. Navigate to **Releases** ➔ **Draft a new release**:
-   * **Tag version**: `v<VERSION>` (e.g., `v1.0.1`)
+   * **Tag version**: `v<VERSION>` (e.g., `v1.0.0`)
    * **Release title**: `Tally Bank Statement Importer v<VERSION>`
    * Attach `Tally_Bank_Statement_Importer.exe` as the binary release asset.
 4. Click **Publish release**. Connected client apps will detect the new release and offer an automatic in-place upgrade.
