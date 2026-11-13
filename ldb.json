@@ -5,5 +5,12 @@
     "app": "TallyBankImporter",
     "trial_days": 15,
     "last_seen": "2026-11-11T23:34:07"
+  },
+  "88623630397957": {
+    "hwid": "88623630397957",
+    "start_date": "2026-11-13",
+    "app": "TallyBankImporter",
+    "trial_days": 15,
+    "last_seen": "2026-11-13T12:12:43"
   }
 }
